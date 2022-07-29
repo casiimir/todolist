@@ -16,6 +16,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Todolist</h1>
       <TodoList list={list} setList={setList} />
     </div>
   );
